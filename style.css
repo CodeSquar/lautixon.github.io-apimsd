@@ -101,6 +101,7 @@ li{
 .img-hamburger{
     height: 50px;
     border: none;
+    
 }
 .divsection{
     display: block;
@@ -252,7 +253,10 @@ p{
     .header-div-nav-links{
         display: none;
              
-        }
+        } 
+        .header-div-hamburger{
+                display: flex;
+            }
         .container{
             display: flex;
             justify-content: center;
@@ -263,7 +267,7 @@ p{
             margin-left: 50px; 
             margin-right: 50px;
             } 
-            
+           
         }
 @media(max-width:490px){
     .img_headerlogo{height: 30px;}
